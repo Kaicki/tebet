@@ -1,0 +1,1 @@
+const router=require('express').Router(); const c=require('../controllers/gameController'); router.post('/lineup',c.createLineup); module.exports=router;
